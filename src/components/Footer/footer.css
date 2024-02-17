@@ -1,0 +1,9 @@
+.footer li a {
+    color:#212529bf;
+    text-decoration: none;
+}
+
+.footer button.primary{
+    background:#2F406E;
+    color:#fff;
+}
