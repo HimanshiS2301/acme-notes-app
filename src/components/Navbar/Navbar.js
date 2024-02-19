@@ -5,7 +5,7 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
+      <nav className="navbar navbar-expand-lg navbar-white bg-white p-3">
         <span className="navigation-title">Acme</span>
         <button
           className="navbar-toggler"
@@ -40,9 +40,7 @@ const Navbar = () => {
               <NavLink to="/">Pricing</NavLink>
             </li>
           </ul>
-          <form className="form-inline">
-            <button className="nav-buttons">Sign In</button>
-          </form>
+          <button className="nav-buttons">Sign In</button>
         </div>
       </nav>
     </div>
