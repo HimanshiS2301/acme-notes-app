@@ -57,7 +57,7 @@ React JS
 ### Page Load Time 
 
 Used GTmetrix to measure the page load time
-The total page loading time is 0.7 s.
+The total page loading time is 0.8 s.
 
 ### Optimization to increase page performance
 
