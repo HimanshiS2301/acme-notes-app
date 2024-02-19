@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+### Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The landing page serves as the gateway to our innovative notes-taking application, designed to streamline organization and productivity.
 
-## Available Scripts
+### Branding
 
-In the project directory, you can run:
+The top section prominently features our app's logo and brand colors, ensuring immediate brand recognition.
 
-### `npm start`
+### Hero Section 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A captivating headline ,"Keep your notes organised, easy and safe way" welcomes visitors and communicates the app's value proposition.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+An engaging image showcases users seamlessly organizing their notes across devices, higlighting the app's versatility.
 
-### `npm test`
+### Feature Showcase
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Key Features are outlined below the hero section, including :
 
-### `npm run build`
+1) Intuitive organization tools, such as tags and folders
+2) Collaborative note-sharing capabilities
+3) Stay on track with reminders and alerts
+4) Never lose access to your notes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Call-to-Action (CTA)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A prominent CTA button encourages visitors to "Get Started", leading them to sign up for free trial or download the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The button's color and placement draw attention and encourage user engagement.
 
-### `npm run eject`
+### Footer
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The footer contains essential links, including navigation menus for easy access to features and support resources.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Responsive Design
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The alnding page is meticulously crafted to ensure seamless viewing and interaction across desktop, tablet and mobile devices.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Performance Optimization
 
-## Learn More
+Efforts are made to optimise page load times and minimise resource usage, providing a smooth user experience.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Framework/Library Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React JS
 
-### Code Splitting
+### Packages/Plugins Installed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+"@fortawesome/free-brands-svg-icons": "^6.5.1",
+"@fortawesome/react-fontawesome": "^0.2.0",
+"bootstrap": "^5.3.2",
+"framer-motion": "^11.0.5",
+"jquery": "^3.7.1",
+"react-dom": "^18.2.0",
+"react-lazyload": "^3.2.0",
+"react-router-dom": "^6.22.0",
 
-### Analyzing the Bundle Size
+### Page Load Time 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Used GTmetrix to measure the page load time
+The total page loading time is 0.7 s.
 
-### Making a Progressive Web App
+### Optimization to increase page performance
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Implemented some strategies such as Lazy Loading of images so that images are loaded only when they come into view, reducing intial page load times. (used react-lazyload library)
 
-### Advanced Configuration
+Utilized page splitting techniques to split Javascript Bundle into smaller chunks that are loaded on demand.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+

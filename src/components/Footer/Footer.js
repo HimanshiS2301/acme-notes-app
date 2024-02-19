@@ -9,68 +9,65 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div>
-      <div className="footer container">
+      <div className="footer container bg-white">
         <footer className="py-5">
           <div className="row">
             <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
+              <h5>Product</h5>
               <ul className="nav flex-column">
-                <li className="nav-item mb-2">
-                  <NavLink to="/">Home</NavLink>
-                </li>
                 <li className="nav-item mb-2">
                   <NavLink to="/">Features</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">Pricing</NavLink>
+                  <NavLink to="/">Integrations</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">FAQs</NavLink>
+                  <NavLink to="/">Enterprise</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Solutions</NavLink>
                 </li>
               </ul>
             </div>
 
             <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
+              <h5>Resources</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/">Partners</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">Features</NavLink>
+                  <NavLink to="/">Developers</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">Pricing</NavLink>
+                  <NavLink to="/">Community</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">FAQs</NavLink>
+                  <NavLink to="/">Blog</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Help Center</NavLink>
                 </li>
               </ul>
             </div>
 
             <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
+              <h5>Company</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/">About us</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">Features</NavLink>
+                  <NavLink to="/">Leadership</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">Pricing</NavLink>
+                  <NavLink to="/">News</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">FAQs</NavLink>
+                  <NavLink to="/">Media Kit</NavLink>
                 </li>
                 <li className="nav-item mb-2">
-                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Careers</NavLink>
                 </li>
               </ul>
             </div>
